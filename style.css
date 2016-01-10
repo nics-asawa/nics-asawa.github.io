@@ -1,10 +1,71 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background-image: url(linedpaper.png);
+  background-image: url(background.jpg);
   background-repeat: repeat;
+  text-align: left;
 }
 #wrapper {
-  width: 960px;
-  margin: 20px auto 20px auto;
+  width: 1200px;
+  margin:50px 50px;
+}
+h1 {
+	color: #FF6501;
+	font-size: 40px;
+	margin:0px 0px;
+}
+h2 {
+	font-size: 20px;
+	font-style: italic;
+}
+h3 {
+	color: #FF6501;
+	font-size: 25px;
+	font-style: normal;
+	margin-bottom: 0px;
+}
+h4 {
+	color: #5B96C4;
+	font-size: 25px;
+	font-style: normal;
+	margin-bottom: 0px;
+}
+h5{
+	font-size: 20px;
+	font-style: normal;
+	margin-bottom: 0px;
+}
+p {
+	font-size: 15px;
+}
+#about {
+	font-style: normal;
+}
+#summary {
+	color:orange;
+}
+#foot{
+	margin: 0px 0px;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+}
+#contact{
+	font-size:18px;
+	color: gray;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.points {
+	font-size: 15px;
+	font-family: arial;
+}
+img {
+	width:200px;
+}
+a {
+	color:blue;
+}
+a:visited{
+	color:purple;
 }
