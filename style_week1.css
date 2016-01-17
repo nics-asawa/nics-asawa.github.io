@@ -1,6 +1,7 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
+  background-image: url(background.jpg);
   background-repeat: repeat;
   text-align: left;
 }
@@ -59,21 +60,6 @@ p {
 	font-size: 15px;
 	font-family: arial;
 }
-
-.logo{
-	width:170px;
-	height:30px;
-}
-.jumbotron{
-	background-image: url(http://www.cakebakeandsweets.com/melbourne/wp-content/uploads/sites/3/2013/11/Melbourne-Website-background-image-1.jpg)
-}
-
-.sidebar{
-	border-style: solid;
-	border-width: 1px;
-	padding: 10px 10px 10px 10px;
-}
-
 img {
 	width:200px;
 }
