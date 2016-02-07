@@ -60,46 +60,24 @@ p {
 	margin-top: 40px;
 }
 #aboutjumbotron{
-	background-image: url(homepage.jpg);
+	background-image: url(nics-asawa.github.io/homepage.jpg);
 	height:500px;
 }
 #indexjumbotron{
-	background-image: url(cooking.jpg);
+	background-image: url(nics-asawa.github.io/cooking.jpg);
 	height:500px;
 }
 .thumbnail{
 	height:270px;
 }
 
-/*To check if necessary*/
-#about {
-	font-style: normal;
-}
-#summary {
-	color:orange;
-}
-#foot{
-	margin: 0px 0px;
-	border-style: solid;
-	border-color: gray;
-	border-width: 1px;
-}
-#contact{
-	font-size:18px;
-	color: gray;
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
+
 .points {
 	font-size: 15px;
 	font-family: arial;
 }
 
-.sidebar{
-	border-style: solid;
-	border-width: 1px;
-	padding: 10px 10px 10px 10px;
-}
+
 
 img {
 	width:200px;
