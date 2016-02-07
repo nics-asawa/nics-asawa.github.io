@@ -9,10 +9,11 @@ $(function() {
     window.data = data;
     
     // Put your code here. Don't change any other code in this file. You will be sad.
-    var markup = "Currently: " + data.currently.summary +
-    " Today: " + data.daily.data[0].summary +
-    " Tomorrow: " + data.daily.data[1].summary +
-    " Day after tomorrow: " + data.daily.data[2].summary;
+    var markup = "<h3>Currently: " + data.currently.summary;
+    markup = markup + " Today: " + data.daily.data[0].summary;
+    markup = markup + " Tomorrow: " + data.daily.data[1].summary;
+    markup = markup + " Day after tomorrow: " + data.daily.data[2].summary;
+    markup = markup + "</h3";
 
     // End of your code. No, really. Don't change anything below this, or above line 11.
 

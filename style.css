@@ -9,13 +9,19 @@ body {
   margin:50px 50px;
 }
 h1 {
-	color: #FF6501;
-	font-size: 40px;
+	font-size: 60px;
 	margin:0px 0px;
 }
+#header {
+	color:#FF6501;
+	text-align: center;
+	font-size:100px;
+	font-style: bold;
+}
 h2 {
-	font-size: 20px;
+	font-size: 40px;
 	font-style: italic;
+	text-align: center;
 }
 h3 {
 	color: #FF6501;
@@ -37,6 +43,35 @@ h5{
 p {
 	font-size: 15px;
 }
+.center {
+	text-align: center;
+}
+.textbox {
+	width:600px;
+}
+.logo{
+	width:170px;
+	height:30px;
+	margin-top: 10px;
+	margin-right:10px;
+}
+.navbar-bottom{
+	height:30px;
+	margin-top: 40px;
+}
+#aboutjumbotron{
+	background-image: url(homepage.jpg);
+	height:500px;
+}
+#indexjumbotron{
+	background-image: url(cooking.jpg);
+	height:500px;
+}
+.thumbnail{
+	height:270px;
+}
+
+/*To check if necessary*/
 #about {
 	font-style: normal;
 }
@@ -58,14 +93,6 @@ p {
 .points {
 	font-size: 15px;
 	font-family: arial;
-}
-
-.logo{
-	width:170px;
-	height:30px;
-}
-.jumbotron{
-	background-image: url(http://www.cakebakeandsweets.com/melbourne/wp-content/uploads/sites/3/2013/11/Melbourne-Website-background-image-1.jpg)
 }
 
 .sidebar{
